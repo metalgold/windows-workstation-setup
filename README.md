@@ -15,7 +15,7 @@ choco feature enable -n=allowGlobalConfirmation
 Install all required tools:
 
 ```
-choco install keepassxc git vscode openvpn jetbrainstoolbox thunderbird mattermost-desktop slack zoom libre-hardware-monitor rancher-desktop
+choco install keepassxc git vscode wireguard thunderbird mattermost-desktop zoom libre-hardware-monitor rancher-desktop
 ```
 
 Install Ubuntu dependencies:
