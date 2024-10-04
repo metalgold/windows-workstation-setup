@@ -31,6 +31,22 @@ Install sdkman:
 curl -s "https://get.sdkman.io" | bash
 ```
 
+Install aws-cli:
+
+```
+sudo snap install aws-cli --classic
+```
+
+Install granted:
+
+```
+sudo apt update && sudo apt install gpg
+wget -O- https://apt.releases.commonfate.io/gpg | sudo gpg --dearmor -o /usr/share/keyrings/common-fate-linux.gpg
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/common-fate-linux.gpg] https://apt.releases.commonfate.io stable main" | sudo tee /etc/apt/sources.list.d/common-fate.list
+sudo apt update
+sudo apt install granted
+```
+
 Install nvm:
 
 ```
