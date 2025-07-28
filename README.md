@@ -3,7 +3,7 @@
 Install all required tools:
 
 ```
-winget install Microsoft.WSL Git.Git Microsoft.VisualStudioCode WireGuard.Wireguard Mozilla.Thunderbird.de Mattermost.MattermostDesktop Zoom.Zoom suse.RancherDesktop LibreHardwareMonitor.LibreHardwareMonitor JetBrains.Toolbox
+winget install Microsoft.WSL Git.Git KeePassXCTeam.KeePassXC Microsoft.VisualStudioCode WireGuard.Wireguard Mozilla.Thunderbird.de Mattermost.MattermostDesktop Zoom.Zoom suse.RancherDesktop LibreHardwareMonitor.LibreHardwareMonitor JetBrains.Toolbox
 ```
 
 Install Ubuntu dependencies:
